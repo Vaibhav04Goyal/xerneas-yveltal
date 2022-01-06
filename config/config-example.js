@@ -8,7 +8,7 @@ exports.port = 8000;
 /**
  * The server Namr - Being used to rename custom-plugins.
  */
-exports.serverName = 'Server';
+exports.serverName = 'Xerneas-Yveltal-Zygarde';
 
 /**
 * The server IP - Being used to show avatars in profile.
@@ -104,7 +104,7 @@ exports.poof = true;
 exports.expTimer = 30000;
 
 // add system operators.
-exports.special = ['princesky'];
+exports.special = ['10notfound'];
 
 /**
  * crash guard - write errors to log file instead of crashing
@@ -462,7 +462,7 @@ exports.disablehotpatchall = false;
  */
 exports.grouplist = [
 	{
-		symbol: '~',
+		symbol: '&',
 		id: "admin",
 		name: "Administrator",
 		root: true,
@@ -470,8 +470,8 @@ exports.grouplist = [
 	},
 	{
 		symbol: '&',
-		id: "leader",
-		name: "Leader",
+		id: "op",
+		name: "Operator",
 		inherit: '@',
 		jurisdiction: 'u',
 		promote: 'u',
@@ -564,7 +564,7 @@ exports.grouplist = [
 		symbol: '\u2606',
 		id: "player",
 		name: "Player",
-		inherit: '+',
+		inherit: '~',
 		roomvoice: true,
 		modchat: true,
 		roomonly: true,
@@ -602,9 +602,9 @@ exports.grouplist = [
 	},
 	{
 		symbol: '%',
-		id: "driver",
-		name: "Driver",
-		inherit: '+',
+		id: "manager",
+		name: "Manager",
+		inherit: '~',
 		jurisdiction: 'u',
 		announce: true,
 		warn: '\u2606u',
@@ -625,9 +625,9 @@ exports.grouplist = [
 		lottery: true,
 	},
 	{
-		symbol: '+',
-		id: "voice",
-		name: "Voice",
+		symbol: '~',
+		id: "officials",
+		name: "Officials",
 		inherit: ' ',
 		alts: 's',
 		broadcast: true,
